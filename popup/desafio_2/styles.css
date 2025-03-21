@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Estilização básica */
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke
+}
+
+/* Cabeçalho */
+header {
+    background-color: pink;
+    color: hotpink;
+    font-size: larger;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Seção principal */
+main {
+    padding: 2em;
+    color: hotpink;
+    text-align: center;
+}
+
+form {
+    background-color: lavenderblush ;
+    color: hotpink;
+    padding: 2em;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    display: inline-block;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    color: hotpink;
+    margin-bottom: 0.5em;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid lavender;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: hotpink;
+    color: lavender;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 2em;
+    background-color: lavenderblush;
+    padding: 1em;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+}
+
+#resultado h3 {
+    color: hotpink;
+    margin: 0;
+}
+
+#resultado p {
+    margin: 0.5em 0 0;
+    color: hotpink;
+}
+
+/* Rodapé */
+footer {
+    background-color: lightpink;
+    color: hotpink;
+    text-align: center;
+    padding: 1em 0;
+}

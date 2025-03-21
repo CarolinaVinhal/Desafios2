@@ -1,0 +1,31 @@
+body {
+    font-family: monospace, sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+header, footer {
+    background-color: darkcyan;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+   
+}
+
+button {
+    background-color: coral;
+    color: whitesmoke;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:orangered;
+}
